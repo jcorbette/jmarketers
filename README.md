@@ -29,4 +29,4 @@ This is a responsive website for a fictional digital marketing company. It is bu
 
 ## Project Images
 ![Home Page On PC](/github-project-images/index-page.jpeg?raw=true "Home Page on PC")
-![[Home Page On Mobile](/github-project-images/index-page-mobile.jpeg?raw=true "Home Page On Mobile")
+![Home Page On Mobile](/github-project-images/index-page-mobile.jpeg?raw=true "Home Page on Mobile")
