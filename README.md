@@ -27,6 +27,8 @@ This is a responsive website for a fictional digital marketing company. It is bu
 - npm-run-all
 - sass
 
+*Project files uploaded here do not include nodel-modules folder*
+
 ## Project Images
 ![Home Page On PC](/github-project-images/index-page.jpeg?raw=true "Home Page on PC")
 ![Home Page On Mobile](/github-project-images/index-page-mobile.jpeg?raw=true "Home Page on Mobile") ![Home Page On Mobile With Menu](/github-project-images/index-page-mobile-2.jpeg?raw=true "Home Page on Mobile With Menu")
