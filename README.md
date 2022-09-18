@@ -18,7 +18,6 @@ This is a responsive website for a fictional digital marketing company. It is bu
 - Terms and Conditions
 - Privacy Policy
 
-##
 **Dependencies:** 
 - EJS
 - Express
