@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JMarketers - Pricing</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Signika+Negative&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/pricing.css">
+        <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <%- include("header") %>
+        </header>
+
+        <main class="pricing-main">
+            <div class="pricing-top">
+                <div class="pricing-top-sub">
+                    <h1>Pricing</h1>
+                    <h2>View Our Plans</h2>
+                </div>                
+            </div>
+            <div class="pricing-container">
+                <div class="pricing-container-sub">
+                    <div class="panel table">
+                        
+                        <div class="plan">
+                            <img src="/images/price-1.png" alt="" class="price-img">
+                            <h2 class="price-header">Personal</h2>
+                            <ul class="price-features">
+                                <li class="price-features-item pfi-1">Convallis aenean et tortor</li>
+                                <li class="price-features-item">Mauris augue neque gravida in fermentum et</li>
+                                <li class="price-features-item">Amet luctus venenatis lectus magna fringilla urna porttitor</li>
+                            </ul>
+                            <span class="price">$400</span>
+                            <a href="contact-us" class="price-button">Sign up</a>
+                        </div>
+                        
+                        <div class="plan">
+                            <img src="/images/price-2.png" alt="" class="price-img">
+                            <h2 class="price-header">Small Business</h2>
+                            <ul class="price-features">
+                                <li class="price-features-item pfi-1">Pharetra sit amet</li>
+                                <li class="price-features-item">Aliquam faucibus purus in massa tempor nec feugiat</li>
+                                <li class="price-features-item">Eget lorem dolor sed viverra ipsum nunc aliquet nec</li>
+                            </ul>
+                            <span class="price">$800</span>
+                            <a href="contact-us" class="price-button">Sign Up</a>
+                        </div>
+                        
+                        <div class="plan">
+                            <img src="/images/price-3.png" alt="" class="price-img">
+                            <h2 class="price-header">Enterprise</h2>
+                            <ul class="price-features">
+                                <li class="price-features-item pfi-1">Massa tortor condimentum</li>
+                                <li class="price-features-item">Enim ut sem viverra aliquet eget</li>
+                                <li class="price-features-item">Quam adipiscing vitae proin sagittis nisl rhoncus mattis unom upnol</li>
+                            </ul>
+                            <span class="price">Get a Quote</span>
+                            <a href="contact-us" class="price-button">Sign Up</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <%- include("footer") %>
+        </footer>
+            
+        <script src="/js/main.js"></script>
+
+    </body>
+</html>

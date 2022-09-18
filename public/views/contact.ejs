@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JMarketers - Contact Us</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Signika+Negative&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/contact.css">
+        <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <%- include("header") %>
+        </header>
+
+        <main class="contact-main">
+            <div class="contact-top">
+                <div class="contact-top-sub">
+                    <h1>Contact Us</h1>
+                    <h2>Reach Out - Let Us Know How We Can Meet Your Needs</h2>
+                </div>                
+            </div>
+            <div class="contact-container">
+                <div class="contact-container-sub">
+                    <div class="contact-container-sub-1">
+                        <div class="contact-form">
+                            <h1>Contact Form</h1>
+                            <form action="#" name="contact_form">
+                                <label class="required" for="first_name">First Name</label>
+                                <input name="first_name" type="text" required placeholder="John"/>
+                                <br>
+                                <label class="required" for="last_name">Last Name</label>
+                                <input name="last_name" type="text" required placeholder="Doe"/>
+                                <br>
+                                <label class="required" for="email">Email</label>
+                                <input name="email" type="email" required placeholder="you@domain.com"/>
+                                <br>
+                                <label for="email">Company</label>
+                                <input name="email" type="text" placeholder="Company Name"/>
+                                <br>
+                                <label class="required" for="email">What Plan Are You Interested In?</label>
+                                <br>
+                                <select required>
+                                    <optgroup class="contact-service" label="Service Plan">
+                                        <option value="contact-service-personal">Personal</option>
+                                        <option value="contact_service_small-business">Small Business</option>
+                                        <option value="contact_service_enterprise">Enterprise</option>
+                                    </optgroup>
+                                </select>
+                                <br>
+                                <label class="required" for="message">Message</label><br>
+                                <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+                                <div class="submit-button">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>	
+                        </div>
+                    </div>
+                    <div class="contact-container-sub-2">
+                        <h1>Toll Free:</h1>
+                        <p>1-866-XXX-XXXX</p>
+                        <h1>Email:</h1>
+                        <p>sales@jmarketers.com</p>
+                        <br>
+                        <h2>Our Location</h2>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.609427557368!2d-79.44878634922341!3d43.677092158801514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34733cd6bfad%3A0x1bed9b0832c1d284!2sSt%20Clair%20Ave%20W%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1662426598541!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <p>XXX St Clair Ave W</p>
+                        <p>Toronto, ON XXX XXX</p>
+                      
+                    </div>
+                </div>                
+            </div>
+        </main>
+        
+        <footer>
+            <%- include("footer") %>
+        </footer>
+            
+        <script src="/js/main.js"></script>
+
+    </body>
+</html>
