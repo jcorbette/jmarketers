@@ -8,7 +8,7 @@ This is a responsive website for a fictional digital marketing company. It is bu
 
 **Link to completed project:** https://jmarketers.herokuapp.com/
 
-**Website pages:**
+### Website pages
 - Home
 - Services
 - Pricing
@@ -18,6 +18,7 @@ This is a responsive website for a fictional digital marketing company. It is bu
 - Terms and Conditions
 - Privacy Policy
 
+##
 **Dependencies:** 
 - EJS
 - Express
@@ -28,5 +29,5 @@ This is a responsive website for a fictional digital marketing company. It is bu
 - sass
 
 ## Project Images
-![Home Page On PC](/images/github-project-images/index-page.jpeg?raw=true "Home Page on PC")
-![[Home Page On Mobile](/images/github-project-images/index-page-mobile.jpeg?raw=true "Home Page On Mobile")
+![Home Page On PC](/github-project-images/index-page.jpeg?raw=true "Home Page on PC")
+![[Home Page On Mobile](/github-project-images/index-page-mobile.jpeg?raw=true "Home Page On Mobile")
