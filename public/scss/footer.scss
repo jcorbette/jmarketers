@@ -1,0 +1,185 @@
+.footer-container {
+    position: relative;
+    top: 100px;
+    color: #FBFBFF;    
+    background-color: #081B4B;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 30px;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        min-width: 120px;
+        
+        &::after {
+            background-color: #FBFBFF;
+            opacity: 0.20;
+            content: "";
+            display: block;
+            height: 25%;
+            position: absolute;
+            width: 1px;
+            margin-top: 40px;
+            margin-left: 15%;
+        }
+        
+        &:last-child::after {
+            display: none;
+        }
+        
+    }
+    
+    h1 {
+        font-size: 25px;
+        font-weight: lighter;
+        margin-bottom: 15px;
+        
+    }
+    
+    ul {
+        display: inline-block;
+        
+        li {
+            line-height: 35px;
+            font-size: 20px;
+        }        
+        
+        a {
+            color: #FBFBFF;
+            opacity: 0.75;
+            font-size: 20px;
+        }
+    }
+       
+}
+
+.social {
+    
+    ul {
+        display: inline-flex; 
+    
+        li a {
+            font-size: 35px;
+            padding: 0 15px 0 0px;
+            opacity: 1;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 957px) {
+    .footer-container {
+
+        flex-direction: row;
+        padding-top: 60px;
+        text-align: center;
+        flex-wrap: wrap;
+        
+        div {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            flex: 1 1 auto;
+            width: 40%;
+            min-width: 220px;
+            margin-bottom: 50px;
+            column-gap: 10px;  
+            row-gap: 10px;
+            
+            &::after {
+                display: none;
+            }
+        }
+        
+        h1 {
+            font-size: 35px;
+        }
+        
+        ul {
+                        
+            li {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }        
+            
+            a {
+                font-size: 30px;
+            }
+        }
+    }
+    
+    .social {
+    
+        ul {
+        
+            li a {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .footer-container {
+
+        h1 {
+            font-size: 30px;
+        }
+        
+        ul {
+                        
+            li {
+                font-size: 25px;
+            }        
+            
+            a {
+                font-size: 25px;
+            }
+        }
+    }
+    
+    .social {
+    
+        ul {
+        
+            li a {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .footer-container {
+
+        h1 {
+            font-size: 25px;
+        }
+        
+        ul {
+                        
+            li {
+                font-size: 20px;
+            }        
+            
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .social {
+    
+        ul {
+        
+            li a {
+                font-size: 30px;
+            }
+        }
+    }
+}

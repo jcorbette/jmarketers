@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JMarketers - Login</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Signika+Negative&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/login.css">
+        <link rel="stylesheet" type="text/css" href="/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="/css/footer-2.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <%- include("header") %>
+        </header>
+
+        <main class="login-main">
+            <div class="login-container">
+                <div class="login-form">
+                    <h1>Client Login</h1>
+                    <form action="#" name="contact_form">
+                        <input name="email-login" type="email" required placeholder="Email Address"/>
+                        <br>
+                        <input name="password" type="password" required placeholder="Password"/>
+                        <div class="submit-button">
+                            <input type="submit" value="Login"/>
+                        </div>
+                        <a href="">Forgot Password?</a>
+                    </form>	
+                </div>               
+            </div>
+        </main>
+        
+        <footer>
+            <%- include("footer") %>
+        </footer>
+            
+        <script src="/js/main.js"></script>
+
+    </body>
+</html>
