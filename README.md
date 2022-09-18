@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This is a responsive website for a fictional digital marketing company. It is built using using Node.js and Express and deployed with Heroku.
+This is a responsive website for a fictional digital marketing company. It is built using Node.js and Express and deployed with Heroku.
 
 **Languages used:** HTML, SCSS, EJS, JavaScript
 
